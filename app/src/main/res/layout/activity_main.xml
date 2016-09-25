@@ -1,0 +1,57 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/initial_value"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:id="@+id/counter"
+        android:layout_gravity="center_horizontal" />
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:format="%s"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageButton"
+        android:background="@drawable/muna2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.00" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:text="Uuesti"
+        android:id="@+id/reloadButton"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
